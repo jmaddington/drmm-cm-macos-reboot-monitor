@@ -13,7 +13,7 @@ up=`uptime|awk {'print $3'}`
 
 exit_code = EXIT_SUCCESS
 
-if [[ $up -gt 1 ]]
+if [[ $up -gt $FAILURE_THRESHOLD ]]
 then
     exit_code = EXIT_FAILURE
 fi

@@ -1,0 +1,20 @@
+<component info='CentraStage Component'>
+  <general>
+    <name>Reboot Monitor [macOS]</name>
+    <category>monitors</category>
+    <description>Component monitor for macOS to monitor last reboot. Set variable in days to set threshold for how many days the machine can be up without a reboot before throwing an error.</description>
+    <uid>169ca0be-2d19-4386-a2f4-56122963e939</uid>
+    <hash />
+    <version>15</version>
+    <timeout>60</timeout>
+    <securityLevel>1</securityLevel>
+    <installType>batch</installType>
+  </general>
+  <variable idx='0'>
+    <name>reboot_days</name>
+    <type>string</type>
+    <direction>false</direction>
+    <description>Throw an error if device has not been rebooted in greater than this many days.</description>
+    <defaultVal>30</defaultVal>
+  </variable>
+</component>

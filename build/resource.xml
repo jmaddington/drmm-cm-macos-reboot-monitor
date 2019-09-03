@@ -2,13 +2,13 @@
   <general>
     <name>Reboot Monitor [macOS]</name>
     <category>monitors</category>
-    <description>Component monitor for macOS to monitor last reboot. Set variable in days to set threshold for how many days the machine can be up without a reboot before throwing an error.</description>
+    <description>Component monitor for macOS to monitor last reboot. Set variable in days to set threshold for how many days the machine can be up without a reboot before throwing an error. Source at https://github.com/jmaddington/drmm-cm-macos-reboot-monitor</description>
     <uid>169ca0be-2d19-4386-a2f4-56122963e939</uid>
     <hash />
-    <version>15</version>
+    <version>19</version>
     <timeout>60</timeout>
     <securityLevel>1</securityLevel>
-    <installType>batch</installType>
+    <installType>unix</installType>
   </general>
   <variable idx='0'>
     <name>reboot_days</name>

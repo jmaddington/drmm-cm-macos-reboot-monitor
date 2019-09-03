@@ -13,4 +13,4 @@ Apple and push changes.
 You will see the monitor available on device page right away, although it may take some time to show the current uptime.
 ![devicepage]
 
-[devicepage]: "./device page detail.png"
+[devicepage]: https://github.com/jmaddington/drmm-cm-macos-reboot-monitor/raw/master/device%20page%20detail.png
